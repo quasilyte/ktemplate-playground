@@ -1,0 +1,15 @@
+{
+    "name": "quasilyte/ktemplate-playground",
+    "description": "KTemplate online demo site",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iskander Sharipov",
+            "email": "quasilyte@gmail.com"
+        }
+    ],
+    "require": {
+        "quasilyte/ktemplate": "dev-master"
+    }
+}
