@@ -1,0 +1,52 @@
+h2 {
+    --typography-spacing-vertical: 0px;
+}
+
+textarea {
+    resize: none;
+    min-height: 320px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+main.container {
+    padding-top: 20px;
+}
+
+#templateresult {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 8px;
+    min-height: 60vh;
+    max-height: 60vh;
+    white-space: pre;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#templatesource {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 8px;
+    min-height: 60vh;
+    max-height: 60vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#templatedata {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.6rem;
+}
+
+input, select {
+    --form-element-spacing-vertical: 0.2rem;
+    --form-element-spacing-horizontal: 0.2rem;
+}
+
+form {
+    --typography-spacing-vertical: 0.4rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KTemplate Playground</title>
+    <meta charset="UTF-8">
+
+    <meta property="og:title" content="KTemplate Playground">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Try KTemplate engine online!">
+    <meta property="og:url" content="https://quasilyte.tech/ktemplate">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="stylesheet" href="pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <h2><a href="https://github.com/quasilyte/KTemplate">KTemplate</a> Playground</h2>
+      <div class="grid">
+        <span>Template data:</span>
+        <span>Snippet:</span>
+      </div>
+      <div class="grid">
+        <div><input title="Template Date" id="templatedata" value='{"title": "example"}' type="text" spellcheck="false"></div>
+        <div class="grid">
+          <div>
+            <select id="snippetselect" title="Select Snippet">
+            </select>
+          </div>
+          <div class="grid">
+            <div><input id="disasmbutton" value="Disasm" type="button"></div>
+            <div><input id="renderbutton" value="Render" type="button"></div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <span>Template source:</span>
+        <span>Result:</span>
+      </div>
+      <div class="grid">
+        <textarea id="templatesource" title="Template Source Code" spellcheck="false"></textarea>
+        <code id="templateresult"></code>
+      </div>
+      <hr>
+      <div class="grid">
+        <footer>Powered by <a href="https://github.com/VKCOM/kphp">KPHP</a></footer>
+        <div>
+          <a target="_blank" title="Help" href="https://github.com/quasilyte/ktemplate-playground/blob/master/help.md"><i class="fa fa-info-circle" style="font-size: 1.6em"></i></a>
+          <a target="_blank" title="Docs" href="https://github.com/quasilyte/KTemplate/blob/master/_docs/template_language.md"><i class="fa fa-book" style="font-size: 1.6em"></i></a>
+          <a target="_blank" title="Site Source Code" href="https://github.com/quasilyte/ktemplate-playground"><i class="fa fa-github" style="font-size: 1.6em"></i></a>
+          <a target="_blank" title="Report Issue" href="https://github.com/quasilyte/KTemplate/issues/new"><i class="fa fa-bug" style="font-size: 1.6em"></i></a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
